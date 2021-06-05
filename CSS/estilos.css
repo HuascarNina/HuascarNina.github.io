@@ -23,7 +23,7 @@ h1, h2, h3, h4, h5, h6 {
 .seccion__titulo {
 	text-align: center;
 	font-size: 40px;
-	color: #333;
+	color: black;
 }
 
 .contenedor {
@@ -120,7 +120,7 @@ h1, h2, h3, h4, h5, h6 {
 /*Estilos de info*/
 
 .info__columna {
-	background: linear-gradient(to top, #333, white);
+	background: linear-gradient(to top, #333, black);
 	color: #fff;
 	padding: 15px;
 	margin-bottom: 30px;
