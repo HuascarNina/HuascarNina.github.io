@@ -23,7 +23,7 @@ h1, h2, h3, h4, h5, h6 {
 .seccion__titulo {
 	text-align: center;
 	font-size: 40px;
-	color: #097965;
+	color: #333;
 }
 
 .contenedor {
@@ -52,7 +52,7 @@ h1, h2, h3, h4, h5, h6 {
 	width: 40px;
 	height: 40px;
 	font-size: 30px;
-	background: #097965;
+	background: #333;
 	text-align: center;
 	line-height: 45px;
 	border-radius: 5px;
@@ -79,14 +79,14 @@ h1, h2, h3, h4, h5, h6 {
 .menu__link {
 	display: block;
 	padding: 15px;
-	background: #097965;
+	background: #333;
 	text-decoration: none;
 	color: #fff;
 }
 
 .menu__link:hover, .select {
 	background: #fff;
-	color: #097965;
+	color: #333;
 }
 
 .mostrar {
@@ -120,10 +120,17 @@ h1, h2, h3, h4, h5, h6 {
 /*Estilos de info*/
 
 .info__columna {
-	background: #097965;
+	background: linear-gradient(to top, #333, white);
 	color: #fff;
 	padding: 15px;
 	margin-bottom: 30px;
+	border-radius: 5%;
+}
+
+.info__img {
+	height: 300px;
+	width: 900px;
+	border-radius: 5%;
 }
 
 /*Estilos de cursos*/
@@ -177,7 +184,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /*Estilos responsive*/
 
-@media(min-width: 480px){
+@media(min-width: 550px){
 	.logo{
 		font-size: 40px;
 	}
@@ -200,7 +207,7 @@ h1, h2, h3, h4, h5, h6 {
 	}
 	.info__titulo {
 		font-size: 30px;
-		margin: 5px 0;
+		margin: 10px 0;
 	}
 	.seccion__titulo {
 		width: 100%;
@@ -247,7 +254,7 @@ h1, h2, h3, h4, h5, h6 {
 	}
 	.select {
 		color: #fff;
-		background: #097965;
+		background: #333;
 	}
 	.icon-menu {
 		display: none;
@@ -265,6 +272,7 @@ h1, h2, h3, h4, h5, h6 {
 		padding: 30px;
 	}
 	.info__titulo {
+		margin-top:  20px;
 		font-size: 40px;
 		text-align: center;
 	}
@@ -292,4 +300,8 @@ h1, h2, h3, h4, h5, h6 {
 	.info {
 		margin-top: -200px;
 	}
+	.info__titulo {
+		margin-top:  20px;
+	}
 }
+
