@@ -121,7 +121,7 @@ h1, h2, h3, h4, h5, h6 {
 /*Estilos de info*/
 
 .info__columna {
-	background: linear-gradient(to top, #333, black);
+	background: linear-gradient(to top, black, #333);
 	color: #fff;
 	padding: 15px;
 	margin-bottom: 30px;
@@ -306,3 +306,59 @@ h1, h2, h3, h4, h5, h6 {
 	}
 }
 
+/*Estilos de contacto.html*/
+
+#contacto {
+	background-image: url("../IMG/banner.jpg");
+	background-size: 100vw 100vh;
+	background-attachment: fixed;
+	
+}
+
+form {
+	width: 450px;
+	margin: auto;
+	background: rgba(0, 0, 0, 0.4);
+	padding: 10px 20px;
+	box-sizing: border-box;
+	margin-top: 20px;
+	border-radius: 7px;
+}
+
+.titulo__contacto {
+	color: #fff;
+	text-align: center;
+	margin: 0;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+#formulario__input, #formulario__textarea {
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 7px;
+	box-sizing: border-box;
+	font-size: 17px;
+	border: none;
+}
+
+#formulario__textarea {
+	min-height: 100px;
+	max-height: 200px;
+	max-width: 100%;
+	min-width: 100%;
+}
+
+#boton__formulario {
+	background: #31384A;
+	color: #fff;
+	padding: 20px;
+}
+
+#boton__formulario:hover {
+	cursor: pointer;
+}
+
+#footer__contacto {
+	margin-top: 10px;
+}
