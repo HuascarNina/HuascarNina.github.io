@@ -308,7 +308,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /*Estilos de contacto.html*/
 
-#contacto {
+#contacto, #gracias {
 	background-image: url("../IMG/banner.jpg");
 	background-size: 100vw 100vh;
 	background-attachment: fixed;
@@ -333,7 +333,7 @@ form {
 	margin-bottom: 20px;
 }
 
-#formulario__input, #formulario__textarea {
+#formulario__input, #formulario__textarea, #boton__formulario {
 	width: 100%;
 	margin-bottom: 20px;
 	padding: 7px;
@@ -360,5 +360,19 @@ form {
 }
 
 #footer__contacto {
-	margin-top: 10px;
+	margin-top: -16px;
+}
+
+/*Agradecimiento*/
+
+#footer__gracias {
+	margin-top: 141px;
+}
+
+.gracias {
+	text-align: center;
+	color: #fff;
+	font-size: 100px;
+	background: rgba(0, 0, 0, 0.4);
+	margin-top: 200px;
 }
